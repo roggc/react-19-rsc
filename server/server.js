@@ -42,5 +42,5 @@ app.get("/react", (req, res) => {
 });
 
 app.use(express.static(path.resolve(__dirname, "../public")));
-
-app.listen(process.env.PORT || 3000);
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`listening on port ${port}`));

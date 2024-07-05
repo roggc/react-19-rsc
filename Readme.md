@@ -4,8 +4,8 @@
 
 npm i
 
-## run the project (two-steps)
+## run the project
 
-node scripts/build.js && node --conditions react-server server/server.js
+npm run build-and-start
 
 ## visit localhost:3000 on the browser
