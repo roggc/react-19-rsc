@@ -9,3 +9,7 @@ npm i
 npm run build-and-start
 
 ## visit localhost:3000 on the browser
+
+## The merit is of this guy
+
+[His repo](https://github.com/adamjberg/react-server-components)
