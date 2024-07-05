@@ -1,11 +1,11 @@
 // src/CounterS.js
 import Counter from "./counter";
-import Wrapper from "./wrapper";
+import WrapperS from "./wrapper-s";
 
 export default function CounterS() {
   return (
-    <Wrapper>
+    <WrapperS>
       <Counter />
-    </Wrapper>
+    </WrapperS>
   );
 }

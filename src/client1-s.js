@@ -1,15 +1,14 @@
-// src/Client1S.js
 import Client1 from "./client1";
-import Wrapper from "./wrapper";
+import WrapperS from "./wrapper-s";
 
 export default function Client1S() {
   const promise = new Promise((res, rej) => {
-    setTimeout(() => res("foo"), 5000);
+    setTimeout(() => res("foo"), 1000);
   });
 
   return (
-    <Wrapper>
+    <WrapperS>
       <Client1 promise={promise} />
-    </Wrapper>
+    </WrapperS>
   );
 }

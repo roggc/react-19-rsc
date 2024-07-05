@@ -1,15 +1,15 @@
 import CounterS from "./counter-s";
 import Client1S from "./client1-s";
 import App from "./app";
-import Wrapper from "./wrapper";
+import WrapperS from "./wrapper-s";
 
 export default function () {
   return (
-    <Wrapper>
+    <WrapperS>
       <App>
         <CounterS />
         <Client1S />
       </App>
-    </Wrapper>
+    </WrapperS>
   );
 }
