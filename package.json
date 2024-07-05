@@ -1,0 +1,24 @@
+{
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/register": "^7.24.6",
+    "babel-loader": "^9.1.3",
+    "express": "^4.19.2",
+    "react": "^19.0.0-rc-3da26163a3-20240704",
+    "react-dom": "^19.0.0-rc-3da26163a3-20240704",
+    "react-server-dom-webpack": "^19.0.0-rc-3da26163a3-20240704",
+    "webpack": "^5.92.1"
+  }
+}
