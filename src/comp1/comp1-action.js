@@ -1,9 +1,9 @@
 "use server";
 import Comp1 from "./comp1";
 
-export default async function comp1({ name }) {
-  const message = await new Promise((res) =>
+export default function comp1({ name }) {
+  const messagePromise = new Promise((res) =>
     setTimeout(() => res("hello x " + name), 1000)
   );
-  return <Comp1 greeting={message} />;
+  return <Comp1 greetingPromise={messagePromise} />;
 }

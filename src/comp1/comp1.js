@@ -1,12 +1,17 @@
 "use client";
-import Counter from "../counter";
 
-const Comp1 = ({ greeting }) => {
+import Counter from "../counter";
+import Wrapper from "../wrapper";
+
+const Comp1 = ({ greetingPromise }) => {
   return (
     <>
-      <div>{greeting}</div>
+      <div>
+        <Wrapper>{greetingPromise}</Wrapper>
+      </div>
       <Counter />
     </>
   );
 };
+
 export default Comp1;
